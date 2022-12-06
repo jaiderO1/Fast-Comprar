@@ -26,6 +26,7 @@
             android:layout_height="wrap_content"
             android:text="Registro Negocio"
             android:textAlignment="center"
+            android:textColor="@color/oscuro1"
             android:textSize="30dp"
             android:textStyle="bold"
             android:fontFamily="sans-serif-condensed"

@@ -33,12 +33,16 @@ public class Registro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 vista=1;
+                imageButton2.setAlpha((float)0.9);
+                imageButton3.setAlpha((float)0.7);
             }
         });
         imageButton3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 vista=2;
+                imageButton3.setAlpha((float)0.9);
+                imageButton2.setAlpha((float)0.7);
             }
         });
         button.setOnClickListener(new View.OnClickListener() {
@@ -48,8 +52,12 @@ public class Registro extends AppCompatActivity {
                 Intent cambiarNegocio = new Intent(Registro.this,RegistroNegocio.class);
                 if (vista==1)
                     startActivity(cambiarNegocio);
+                    imageButton2.setAlpha((float)0.7);
+                    imageButton3.setAlpha((float)0.7);
                 if (vista==2)
                     startActivity(cambiarUsuario);
+                    imageButton2.setAlpha((float)0.7);
+                    imageButton3.setAlpha((float)0.7);
             }
         });
 

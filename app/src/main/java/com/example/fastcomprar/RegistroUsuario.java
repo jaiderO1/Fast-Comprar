@@ -2,6 +2,7 @@ package com.example.fastcomprar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -25,7 +26,8 @@ public class RegistroUsuario extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                finish();
+                Intent volverInicio = new Intent(RegistroUsuario.this,InicioSesion.class);
+                startActivity(volverInicio);
             }
         });
     }

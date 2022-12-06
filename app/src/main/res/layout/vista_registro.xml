@@ -28,6 +28,7 @@
             android:text="Registro"
             android:textAlignment="center"
             android:textSize="30dp"
+            android:textColor="@color/oscuro1"
             android:textStyle="bold"
             android:fontFamily="sans-serif-condensed"
             android:layout_marginVertical="25dp"/>
@@ -43,6 +44,7 @@
                 android:layout_height="200dp"
                 android:background="@drawable/nombre_negocio"
                 android:layout_marginTop="15dp"
+                android:alpha="0.7"
                 />
             <ImageButton
                 android:id="@+id/registro_usuario"
@@ -50,6 +52,7 @@
                 android:layout_height="200dp"
                 android:background="@drawable/ic_person_pin"
                 android:layout_marginTop="15dp"
+                android:alpha="0.7"
                 />
         </LinearLayout>
         <LinearLayout
@@ -62,6 +65,7 @@
                 android:layout_height="wrap_content"
                 android:text="Registrar negocio"
                 android:textAlignment="center"
+                android:textColor="@color/oscuro1"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif-condensed"
@@ -73,6 +77,7 @@
                 android:text="Registrar usuario"
                 android:textAlignment="center"
                 android:textSize="20dp"
+                android:textColor="@color/oscuro1"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif-condensed"
                 />

@@ -27,6 +27,7 @@
             android:text="Registro usuario"
             android:textAlignment="center"
             android:textSize="30dp"
+            android:textColor="@color/oscuro1"
             android:textStyle="bold"
             android:fontFamily="sans-serif-condensed"
             android:layout_marginVertical="25dp"/>
